@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: Europa, Arial, sans-serif;
+    color:rgb(212, 240, 249);
+    background-color: rgb(0, 0, 0);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+  
+canvas {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Navigation Styling*/
+.navigation {
+    margin: 0.5rem;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-right: 0.7rem;
+}
+.sprints {
+    margin: 0.5rem;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.sprints > a {
+    margin-right: 0.7rem;
+}
