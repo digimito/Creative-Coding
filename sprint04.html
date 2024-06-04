@@ -7,18 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="01_Sprint/index.html">
-                Erstes Beispiel
-            </a>
-        </li>
-        
-        <li>
-            <a href="01_Sprint/index1.html">
-                Zweites Beispiel
-            </a>
-        </li>
-    </ul>
+    <div class="navigation">
+        <div class="box">
+        <a href="index.html">
+            <h1><span>creative coding</span></h1> 
+         </a>
+        </div>
+        <div class="box">
+        <h1><span>sprint 04</span></h1>
+        </div>
+        <div class="box">
+        <a href="sprint01.html">
+            <span> next: sprint 01 </span>
+        </a>
+        </div>
+    </div>
+
+    <div class="description">
+        <p>Im letzten Sprint entschied ich mich dazu den Entwurf aus Sprint 02 weiterzuentwickeln. Einerseits weil ich diesen Sprint zum Machen am spannendsten fand und andererseits, weil ich mir diesen am besten in einem Ausstellungskontext vorstellen konnte. In der Gruppe fiel uns auf, dass unsere Entwürfe sehr gut kombiniert werden können und wir so quasi einen Besuch im Restaurant nachstellen könnten. Zuerst wird ein zufälliges Menü mit Rezept generiert, was auf meinem Sprint 02 beruht, im nächsten Schritt wird dieses Rezept «gekocht», also die verschiedenen Zutaten werden als Pixel bei den entsprechenden Worten gespawnt. Diese fallen anschliessen herunter und bilden so Zutatenhäufchen und im letzten Schritt, also beim Essen, werden diese sortiert (durch Pixelsorting).</p>
+        <p>Da ich mich in diesem Sprint auf einen bereits erstellten Code beziehen konnte, hatte ich sehr viel weniger zu tun als in den vorherigen Sprints und konnte mir so auch die Zeit nehmen, um ein paar Dinge genauer zu verstehen. Ich konnte auch davon profitieren, dass ich diesmal in der Gruppe mit zwei sehr Codeerfahrenen war. Obwohl ich nicht ihre Codes nicht 100% verstanden habe, konnte ich die Vorgehensweise nachvollziehen und weiss so in Zukunft auch mehr, was alles möglich ist und nach welchen Begriffen ich suchen muss, wenn ich etwas machen will. Aufgrund bei Schwierigkeiten beim Zusammensetzten funktioniert der Code noch nicht ganz so wie wir es uns vorgestellt haben, dennoch finde ich, dass etwas sehr Spannendes herausgekommen ist.</p>
+    </div>
+    
+    <div class="prozessbildgallerie">
+        <div class="versuchtexte">
+            <h2>schritt 01-03</h2>
+            <p>Da unsere drei Konzepte, mein Rezeptgenerator, Elias’ Pixelwasserfall und Yannics Pixelsorting auf unabhängigen Entwürfen basiert, mussten noch ein paar Dinge im Code angepasst werden. Ich hatte z.B. im Sprint 02 die Funktion noLoop enthalten, mit der ich das Auswählen eines Rezeptes erreicht habe. Diese Funktion stoppt aber das Rendern für die Seite, was alle nachfolgenden Funktionen ungültig machen würde. Schlussendlich hat das Zusammensetzen geklappt, nur mit der Performance gibt es noch ein paar Schwierigkeiten, da das Pixelsorting am Schluss nur sehr langsam läuft.</p>
+        </div>
+        <a href="04_Sprint/index.html">
+            <img src="Bilder/04_Sprint/Versuch01.png" alt="Versuch01">
+        </a>
+        <a href="04_Sprint/index1.html">
+            <img src="Bilder/04_Sprint/versuch02.png" alt="Versuch02">
+        </a>
+        <a href="04_Sprint/index2.html">
+            <img src="Bilder/04_Sprint/zusammengesetzt.png" alt="Versuch03">
+        </a>
+    </div>    
 </body>
 </html>

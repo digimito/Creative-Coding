@@ -7,18 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="01_Sprint/index.html">
-                Erstes Beispiel
-            </a>
-        </li>
-        
-        <li>
-            <a href="01_Sprint/index1.html">
-                Zweites Beispiel
-            </a>
-        </li>
-    </ul>
+    <div class="navigation">
+        <div class="box">
+        <a href="index.html">
+           <h1><span>creative coding</span></h1> 
+        </a>
+        </div>
+        <div class="box">
+        <h1><span>sprint 03</span></h1>
+        </div>
+        <div class="box">
+        <a href="sprint04.html">
+            <span>next: sprint 04</span>
+        </a>
+        </div>
+    </div>
+
+    <div class="description">
+        <p>Das Thema in diesem Sprint war die Sichtbarmachung von Sound. Ich legte meinen Fokus auf den Sound, den wir selbst erzeugen, also den Input vom Mikrofon und nicht auf einen vorgefertigten Sound. Ich habe mich dafür entschieden, da ich finde, dass wenn die Benutzenden selbst Einfluss auf die Visualisierung nehmen können, dass sehr viel spannender ist und sie sich auch mehr damit befassen als bei etwas Unveränderlichem. Ich legte meinen Fokus im weitesten Sinne aufs Klatschen und Geräusche, die durch die Hände erzeugt werden. Da ich in diesem Sprint WEBGL ausprobierte, konnte ich das 3D-Modell von einer Hand reinladen und diese mit der Lautstärke manipulieren.</p>
+        <p>Wie schon erwähnt, habe ich zum ersten Mal mit WEBGL ausprobiert, also 3D fürs Web und für mich hat das gut funktioniert, auch da ich mit 3D schon Vorkenntnisse habe, was das Erlernen in p5 für mich ein bisschen einfacher gemacht hat. Vor allem das Prinzip der Texturen und Materialien war mir schon bekannt, was ich auch leicht anwenden konnte. Ausserdem fand ich, dass mich das motiviert, etwas spannendere Entwürfe auszuprobieren, die nicht ganz so ernst sind. Beim nächsten Mal würde ich vielleicht trotzdem mit dem vorgefertigten Sound mehr ausprobieren und vielleicht versuchen diesen mit den Geräuschen vom Mikrofon zu kombinieren.</p>
+    </div>
+
+    <div class="prozessbildgallerie">
+        <div class="versuchtexte">
+            <h2>versuch01 und 02</h2>
+            <p>Hier habe ich versucht sehr grossflächig eine Visualisierung zu machen, die sich mit der Lautstärke verändert. Die 3D-Hände sind in einem Raster verteilt und drehen sich um die X-Achse, aber alle ein bisschen versetzt, sodass es aussieht wie eine Welle von Händen. Die Lautstärke bestimmt hier die Grösse der Hände, d. h. je lauter es wird, desto grösser werden die Hände. Hier habe ich noch mit dem Feedback gearbeitet, d. h. es wird sichtbar, wo die Hände sich im vorherigen Frame befunden haben. Der zweite Versuch funktioniert gleich wie der erste, nur sind hier die Hände in nur einer Reihe angeordnet und sie drehen sich alle gleich um die X-Achse, so lässt sich der Lautstärkeunterschied besser beobachten.</p>
+        </div>
+
+        <a href="03_Sprint/index.html"> 
+            <img src="Bilder/03_Sprint/Versuch01.png" alt="Versuch01">
+        </a>
+        <img src="Bilder/03_Sprint/Code01.png" alt="Code Versuch01">
+        <a href="03_Sprint/index1.html"> 
+            <img src="Bilder/03_Sprint/Versuch02.png" alt="Versuch02">
+        </a>
+        <img src="Bilder/03_Sprint/Code02.png" alt="Code Versuch02">
+        <div class="versuchtexte">
+            <h2>versuch03</h2>  
+            <p>Im letzten Versuch wollte ich versuchen einen «Applaus’o’meter» herzustellen, also ein Messsystem, das die Lautstärke des Applauses anzeigt. Hier bestimmt die Lautstärke nicht nur die Grösse der Hände, sondern auch die Position in der Höhe. Je lauter es wird, desto grösser und weiter oben sind die Hände und da ich auch hier mit einem leichten Feedback gearbeitet habe, wird sichtbar, welche Rekordlautstärke erreicht wurde. Um die Gebärde für Applaus zu imitieren, drehen sich die Hände auch unregelmässig nach rechts und links.</p>
+        </div>
+        <a href="03_Sprint/index2.html"> 
+            <img src="Bilder/03_Sprint/Versuch03.png" alt="Versuch03">
+        </a>
+        <img src="Bilder/03_Sprint/Code03.png" alt="Code Versuch03">
+    
+    </div>
 </body>
 </html>

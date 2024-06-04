@@ -1,42 +1,150 @@
 *{
     box-sizing: border-box;
     font-family: Europa, Arial, sans-serif;
-    color:rgb(212, 240, 249);
-    background-color: rgb(0, 0, 0);
+    color:rgb(215, 251, 223);
+    background-color: rgba(0, 0, 0,1);
+    
 }
 
 html, body {
     margin: 0;
     padding: 0;
+    
 }
   
 canvas {
-    display: block;
+    display: flex;
 }
 
 a{
     text-decoration: none;
+    background-color: rgba(255,255,255,0);
+}
+
+/*Hover*/
+a > span:hover{
+    border:2px solid rgb(251, 215, 215);
+    border-radius: 15px;
+    font-size: larger;
+    color: rgb(251, 215, 215);
+    background-color: rgba(255,255,255,0);
+    text-transform: uppercase;
+}
+a > h1 > span:hover{
+    border:2px solid rgb(251, 215, 215);
+    border-radius: 15px;
+    font-size: larger;
+    color: rgb(251, 215, 215);
+    background-color: rgba(255,255,255,0);
+    text-transform: uppercase;
+}
+a>img:hover{
+    border:2px solid rgb(251, 215, 215);
+    background-color: rgba(255,255,255,0);
+    border-radius: 15px;
+    scale: 1.1;
+}
+/*IndexStyling*/
+img {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.sprints {
+    
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 1rem;
+}
+
+
+.sprints > a {
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    background-color: rgba(255,255,255,0);
+}
+
+.sprints > a :hover{
+    border: 2px solid rgb(251, 215, 215);
+    border-radius: 15px;
+}
+
+span{
+    padding: 0.7rem;
+}
+
+.navigationstart{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-family: sans-serif;
 }
 
 /* Navigation Styling*/
+
 .navigation {
-    margin: 0.5rem;
     display: flex;
-    align-content: space-between;
     align-items: center;
-    font-family: sans-serif;
-}
-h1,h2,h3,h4,h5,h6{
-    margin-right: 0.7rem;
-}
-.sprints {
-    margin: 0.5rem;
-    display: flex;
-    align-content: space-between;
-    align-items: center;
-    font-family: sans-serif;
 }
 
-.sprints > a {
-    margin-right: 0.7rem;
+.box{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.box:first-child > span { 
+    margin-right: auto; 
+}
+
+.box:last-child  > span {
+     margin-left: auto;  
+     
+}
+
+.box> a > span{
+    font-weight: 800;
+}
+
+/*Sprints Styling*/
+
+h2{
+    margin-top: 0.7rem;
+    background-color: rgba(255,255,255,0);
+}
+.description {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description > p{
+    max-width: 45%;
+
+}
+.prozessbildgallerie{
+    display: flex;
+    align-items: start;
+    overflow: scroll;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    
+}
+.versuchtexte{
+    max-width: 50%;
+    padding-right: 2rem;
+    flex-basis: 15rem;
+    min-width: 15rem;
+}
+
+.prozessbildgallerie > a > img{
+    height: 30rem;
+    margin: 0.7rem;
+}
+
+.prozessbildgallerie>img{
+   height: 30rem;
+    margin: 0.7rem;
+    margin-right: 1.5rem;
 }
